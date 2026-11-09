@@ -1,0 +1,41 @@
+runs analysed: {'newcomer_univ': 13, 'universalization': 13}
+
+Per run (wanted_ratio >1 = over-harvesting; limits in tons per person):
+       condition  seed  collapse_round  inc_ratio_pre  inc_ratio_arrival  inc_ratio_post  newcomer_wanted_arrival  limit_before_arrival  limit_after_arrival
+   newcomer_univ     1             3.0           0.83               1.20             NaN                    100.0                  12.0                 20.0
+   newcomer_univ     2             NaN           0.42               0.40            0.76                     20.0                   2.0                  2.0
+   newcomer_univ     3             5.0           0.97               1.46            4.70                      9.0                  12.0                 12.0
+   newcomer_univ     4             3.0           0.42               0.38             NaN                    100.0                   1.0                  1.0
+   newcomer_univ     5             4.0           0.72               1.18            1.33                     20.0                  12.0                 10.0
+   newcomer_univ     6             NaN           0.77               0.10            0.59                     20.0                   1.0                  1.0
+   newcomer_univ     7             1.0           1.84                NaN             NaN                      NaN                   NaN                  NaN
+   newcomer_univ     8             6.0           0.81               1.00            1.51                     20.0                  10.0                 10.0
+   newcomer_univ     9             NaN           0.38               0.10            0.93                     12.0                   1.0                  9.0
+   newcomer_univ    10             3.0           0.47               0.10             NaN                    100.0                   1.0                 12.0
+   newcomer_univ    11             3.0           1.18               0.69             NaN                     36.0                   2.0                  5.0
+   newcomer_univ    12             3.0           0.73               0.10             NaN                    100.0                   1.0                  1.0
+   newcomer_univ    13             NaN           0.72               0.95            0.51                     13.0                   NaN                  1.0
+universalization     1             1.0           1.30                NaN             NaN                      NaN                   NaN                  NaN
+universalization     2             NaN           1.13               0.94            0.61                      NaN                   6.0                  5.0
+universalization     3             NaN           1.12               0.91            0.64                      NaN                   NaN                  6.0
+universalization     4             NaN           1.02               1.00            0.71                      NaN                   1.0                  3.0
+universalization     5             0.0           3.16                NaN             NaN                      NaN                   NaN                  NaN
+universalization     6             NaN           0.91               0.84            0.27                      NaN                   8.0                  1.0
+universalization     7             NaN           1.15               0.80            0.17                      NaN                   1.0                  NaN
+universalization     8             1.0           1.79                NaN             NaN                      NaN                   NaN                  NaN
+universalization     9             2.0           1.50                NaN             NaN                      NaN                  10.0                  NaN
+universalization    10             NaN           0.87               0.80            0.78                      NaN                   8.0                  8.0
+universalization    11             NaN           0.77               0.60            0.38                      NaN                   5.0                  4.0
+universalization    12             3.0           1.20               2.05             NaN                      NaN                  15.0                 15.0
+universalization    13             2.0           1.55                NaN             NaN                      NaN                   7.0                  NaN
+
+Summary (mean over runs that reached each window; n in brackets):
+  newcomer_univ     reached month 4: 12 | collapsed in month 4: 5 | agreed-limit change round 2->3: +2.5 t [11] | incumbent ratio change pre->post: +0.79 [7]
+  universalization  reached month 4: 8 | collapsed in month 4: 1 | agreed-limit change round 2->3: -1.2 t [6] | incumbent ratio change pre->post: -0.48 [7]
+
+Hazard in month 4 (newcomer's first month):
+       condition  at_risk  collapses  hazard
+   newcomer_univ       12          5    0.42
+universalization        8          1    0.12
+
+Small n: report per-run values and effect sizes, not p-values, until the batch is done.

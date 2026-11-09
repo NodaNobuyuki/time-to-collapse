@@ -1,0 +1,44 @@
+====================================================================== 
+A. LANDMARK AT MONTH 4 (runs that survived months 1-3)
+======================================================================
+       condition  runs  at_risk_month4  collapsed_month4  collapsed_later  survived_12  rmst_months4to12
+   newcomer_univ    13              12                 5                3            4          4.166667
+universalization    13               8                 1                0            7          8.000000
+
+Survived to month 12 given alive at month 4: Fisher exact p = 0.0281 (OR = 0.07)
+Collapse in month 4 itself:                   Fisher exact p = 0.3246
+Landmark log-rank (months 4-12):              chi2 = 5.07, p = 0.0244
+
+====================================================================== 
+B. TONNAGE CHECK: incumbents' absolute requests, pre vs post arrival
+======================================================================
+       condition  seed  tons_pre  tons_post  pool_pre  pool_post  overlimit_pre  overlimit_post
+   newcomer_univ     2      5.25       7.53    100.00      99.50           0.00            0.09
+   newcomer_univ     3     12.17       7.75    100.00      26.00           0.00            0.00
+   newcomer_univ     5      9.00       8.75    100.00      66.00           0.75            0.00
+   newcomer_univ     6      9.67       5.84    100.00      99.50           0.25            0.16
+   newcomer_univ     8     10.17       8.67    100.00      60.67           0.00            0.12
+   newcomer_univ     9      4.75       8.75    100.00      94.75           0.25            0.06
+   newcomer_univ    13      9.00       5.12    100.00      99.75            NaN            0.20
+universalization     2      9.00       5.30     78.00      91.25           0.00            0.42
+universalization     3      9.40       6.00     83.33      95.00           0.50            0.18
+universalization     4     10.20       5.18    100.00      75.25           0.20            0.46
+universalization     6      9.13       2.68    100.00     100.00           0.00            0.14
+universalization     7     10.00       1.55     86.67      96.50            NaN            0.03
+universalization    10      8.67       7.85    100.00     100.00           0.00            0.00
+universalization    11      7.33       3.85     96.00     100.00           0.40            0.17
+
+--- control = all 5 agents
+     tons change post-pre | newcomer: median -1.50, up in 2/7 | control: median -3.70, up in 0/7 | MWU p = 0.1649
+     pool change post-pre | newcomer: median -5.25, up in 0/7 | control: median +4.00, up in 4/7 | MWU p = 0.0104
+    ratio change post-pre | newcomer: median +0.55, up in 5/7 | control: median -0.48, up in 0/7 | MWU p = 0.0023
+overlimit change post-pre | newcomer: median -0.05, up in 2/6 | control: median +0.07, up in 3/6 | MWU p = 0.4225
+
+--- control = persona_0..3 only (same agents as newcomer incumbents)
+     tons change post-pre | newcomer: median -1.50, up in 2/7 | control: median -3.86, up in 0/7 | MWU p = 0.1649
+     pool change post-pre | newcomer: median -5.25, up in 0/7 | control: median +4.00, up in 4/7 | MWU p = 0.0104
+    ratio change post-pre | newcomer: median +0.55, up in 5/7 | control: median -0.51, up in 0/7 | MWU p = 0.0041
+overlimit change post-pre | newcomer: median -0.05, up in 2/6 | control: median +0.07, up in 3/6 | MWU p = 0.4225
+
+Notes: post = rounds after arrival up to and including the collapse round; only runs that got past month 4.
+'overlimit' = share of incumbent requests above the limit agreed in the previous month's conversation (only rounds where a limit was agreed).

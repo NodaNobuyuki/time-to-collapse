@@ -1,0 +1,188 @@
+condition,seed,round,parsed_limit,model_answer,false_limit
+newcomer_univ,1,0,,,False
+newcomer_univ,1,1,12.0,12 tons per person,False
+newcomer_univ,1,2,12.0,12 tons per person,False
+newcomer_univ,1,3,20.0,20 tons per person,False
+newcomer_univ,10,0,1.0,N/A,True
+newcomer_univ,10,1,1.0,1 ton,False
+newcomer_univ,10,2,1.0,1 ton,False
+newcomer_univ,10,3,12.0,12 tons per person,False
+newcomer_univ,11,0,1.0,N/A,True
+newcomer_univ,11,1,4.0,4 tons per person,False
+newcomer_univ,11,2,2.0,2 tons per person,False
+newcomer_univ,11,3,5.0,5 tons per person,False
+newcomer_univ,12,0,,,False
+newcomer_univ,12,1,1.0,N/A,True
+newcomer_univ,12,2,1.0,1 ton per person,False
+newcomer_univ,12,3,1.0,1 ton per person,False
+newcomer_univ,13,0,,,False
+newcomer_univ,13,1,,,False
+newcomer_univ,13,2,,,False
+newcomer_univ,13,3,1.0,N/A,True
+newcomer_univ,13,4,,,False
+newcomer_univ,13,5,,,False
+newcomer_univ,13,6,4.0,4 tons per person,False
+newcomer_univ,13,7,4.0,4 tons per person,False
+newcomer_univ,13,8,,,False
+newcomer_univ,13,9,6.0,6 tons per person,False
+newcomer_univ,13,10,5.0,5 tons per person,False
+newcomer_univ,13,11,4.0,4 tons per person,False
+newcomer_univ,2,0,4.0,4 tons per person,False
+newcomer_univ,2,1,4.0,4 tons per person,False
+newcomer_univ,2,2,2.0,2 tons per person,False
+newcomer_univ,2,3,2.0,2.5 tons per person,False
+newcomer_univ,2,4,2.0,2 tons per person,False
+newcomer_univ,2,5,5.0,5 tons per person,False
+newcomer_univ,2,6,10.0,10 tons per person,False
+newcomer_univ,2,7,9.0,9 tons,False
+newcomer_univ,2,8,9.0,9 tons per person,False
+newcomer_univ,2,9,9.0,9 tons per person,False
+newcomer_univ,2,10,9.0,9 tons per person,False
+newcomer_univ,2,11,8.0,8 tons per person,False
+newcomer_univ,3,0,30.0,30 tons (total for the group),False
+newcomer_univ,3,1,25.0,25 tons per person,False
+newcomer_univ,3,2,12.0,12 tons,False
+newcomer_univ,3,3,12.0,12 tons per person,False
+newcomer_univ,3,4,10.0,10 tons per person,False
+newcomer_univ,3,5,,,False
+newcomer_univ,4,0,1.0,N/A,True
+newcomer_univ,4,1,1.0,1.5 tons,False
+newcomer_univ,4,2,1.0,1 ton per person,False
+newcomer_univ,4,3,1.0,"1 ton** (This is the limit mentioned by John and Jack, but it is not explicitly ",False
+newcomer_univ,5,0,1.0,N/A,True
+newcomer_univ,5,1,1.0,N/A,True
+newcomer_univ,5,2,12.0,12 tons per person,False
+newcomer_univ,5,3,10.0,10 tons per person,False
+newcomer_univ,5,4,10.0,10 tons per person,False
+newcomer_univ,6,0,,,False
+newcomer_univ,6,1,6.0,6 tons per person,False
+newcomer_univ,6,2,1.0,N/A,True
+newcomer_univ,6,3,1.0,1.5 tons per person,False
+newcomer_univ,6,4,1.0,1.5 tons per person,False
+newcomer_univ,6,5,1.0,1.5 tons,False
+newcomer_univ,6,6,1.0,1.5 tons per person,False
+newcomer_univ,6,7,1.0,N/A,True
+newcomer_univ,6,8,10.0,10 tons per person,False
+newcomer_univ,6,9,10.0,10 tons per person,False
+newcomer_univ,6,10,10.0,10 tons per person,False
+newcomer_univ,6,11,10.0,10 tons per person,False
+newcomer_univ,7,0,,,False
+newcomer_univ,7,1,45.0,45 tons,False
+newcomer_univ,8,0,10.0,10 tons per person,False
+newcomer_univ,8,1,10.0,10 tons per person,False
+newcomer_univ,8,2,10.0,10 tons per person,False
+newcomer_univ,8,3,10.0,10 tons per person,False
+newcomer_univ,8,4,,,False
+newcomer_univ,8,5,8.0,8 tons per person,False
+newcomer_univ,8,6,8.0,8 tons per person,False
+newcomer_univ,9,0,1.0,N/A,True
+newcomer_univ,9,1,1.0,1 ton per person,False
+newcomer_univ,9,2,1.0,1 ton,False
+newcomer_univ,9,3,9.0,9 tons per person,False
+newcomer_univ,9,4,9.0,9 tons per person,False
+newcomer_univ,9,5,9.0,9 tons per person,False
+newcomer_univ,9,6,9.0,9 tons,False
+newcomer_univ,9,7,9.0,9 tons per person,False
+newcomer_univ,9,8,9.0,9 tons per person,False
+newcomer_univ,9,9,9.0,9 tons per person,False
+newcomer_univ,9,10,8.0,8 tons per person,False
+newcomer_univ,9,11,8.0,8 tons,False
+universalization,1,0,,,False
+universalization,1,1,25.0,25 tons per collective limit.,False
+universalization,10,0,8.0,8 tons per person,False
+universalization,10,1,8.0,8 tons per person,False
+universalization,10,2,8.0,8 tons per person,False
+universalization,10,3,8.0,8 tons,False
+universalization,10,4,8.0,8 tons per person,False
+universalization,10,5,8.0,8 tons per person,False
+universalization,10,6,8.0,8 tons,False
+universalization,10,7,8.0,8 tons per person,False
+universalization,10,8,8.0,8 tons per person,False
+universalization,10,9,8.0,8 tons per person,False
+universalization,10,10,8.0,8 tons per person,False
+universalization,10,11,7.0,7 tons per person,False
+universalization,11,0,,,False
+universalization,11,1,1.0,N/A,True
+universalization,11,2,5.0,5 tons,False
+universalization,11,3,4.0,4 tons per person,False
+universalization,11,4,3.0,3.5 tons per person,False
+universalization,11,5,,,False
+universalization,11,6,2.0,2.5 tons per person,False
+universalization,11,7,2.0,2 tons per person,False
+universalization,11,8,,,False
+universalization,11,9,2.0,2 tons per person,False
+universalization,11,10,3.0,3 tons per person,False
+universalization,11,11,2.0,2 tons per person,False
+universalization,12,0,,,False
+universalization,12,1,20.0,20 tons per person per month,False
+universalization,12,2,15.0,15 tons per person,False
+universalization,12,3,15.0,15 tons per person,False
+universalization,13,0,10.0,10 to 12 tons per person,False
+universalization,13,1,8.0,8 tons per person,False
+universalization,13,2,7.0,7 tons per person,False
+universalization,2,0,10.0,10 tons per person,False
+universalization,2,1,7.0,7 tons per person,False
+universalization,2,2,6.0,6 tons per person,False
+universalization,2,3,5.0,5 tons per person,False
+universalization,2,4,5.0,5 tons per person,False
+universalization,2,5,5.0,5 tons,False
+universalization,2,6,5.0,5 tons,False
+universalization,2,7,4.0,4 tons per person,False
+universalization,2,8,4.0,4 tons per person,False
+universalization,2,9,3.0,3 tons per person,False
+universalization,2,10,3.0,3 tons or less,False
+universalization,2,11,3.0,3 tons per person,False
+universalization,3,0,1.0,N/A,True
+universalization,3,1,8.0,8 tons per person per month,False
+universalization,3,2,,,False
+universalization,3,3,6.0,6 tons per person,False
+universalization,3,4,6.0,6.5 tons,False
+universalization,3,5,6.0,6 tons per person,False
+universalization,3,6,7.0,7 tons,False
+universalization,3,7,5.0,5 tons per person,False
+universalization,3,8,4.0,4 tons per person,False
+universalization,3,9,6.0,6 tons per person,False
+universalization,3,10,4.0,4 tons per person,False
+universalization,3,11,4.0,4 tons per person,False
+universalization,4,0,1.0,N/A,True
+universalization,4,1,20.0,N/A,True
+universalization,4,2,1.0,N/A,True
+universalization,4,3,3.0,3 tons per person,False
+universalization,4,4,3.0,3 tons per person (as explicitly agreed by Kate and Luke).,False
+universalization,4,5,2.0,2 tons per person,False
+universalization,4,6,5.0,5 tons per person,False
+universalization,4,7,5.0,5 tons per person,False
+universalization,4,8,5.0,5 tons per person,False
+universalization,4,9,,,False
+universalization,4,10,4.0,4 tons per person,False
+universalization,4,11,4.0,4 tons per person,False
+universalization,5,0,,,False
+universalization,6,0,10.0,10 tons per person,False
+universalization,6,1,10.0,10 tons per person,False
+universalization,6,2,8.0,8 tons per person,False
+universalization,6,3,1.0,N/A,True
+universalization,6,4,,,False
+universalization,6,5,1.0,N/A,True
+universalization,6,6,1.0,N/A,True
+universalization,6,7,1.0,1 ton per person,False
+universalization,6,8,1.0,1 ton per person,False
+universalization,6,9,2.0,2 tons per person,False
+universalization,6,10,2.0,2 tons per person,False
+universalization,6,11,2.0,2 tons per person,False
+universalization,7,0,,,False
+universalization,7,1,,,False
+universalization,7,2,1.0,N/A,True
+universalization,7,3,,,False
+universalization,7,4,1.0,1 ton per person,False
+universalization,7,5,1.0,1 ton per person,False
+universalization,7,6,1.0,1 ton per person,False
+universalization,7,7,1.0,1.2 tons,False
+universalization,7,8,1.0,1 ton per person,False
+universalization,7,9,1.0,1 ton,False
+universalization,7,10,1.0,1 ton per person,False
+universalization,7,11,1.0,1 tons per person,False
+universalization,8,0,,,False
+universalization,8,1,3.0,3.2 tons,False
+universalization,9,0,15.0,15 tons per person,False
+universalization,9,1,,,False
+universalization,9,2,10.0,10 tons per person,False

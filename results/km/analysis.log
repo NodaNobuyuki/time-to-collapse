@@ -1,0 +1,14 @@
+runs: 40 | conditions: ['baseline', 'newcomer_univ', 'universalization'] | horizon: 12 months
+
+       condition  n  collapses  censored  median_survival  rmst_12  rmst_se     S(3)     S(6)    S(12)
+        baseline 14         14         0              1.0 1.071429 0.257539 0.000000 0.000000 0.000000
+   newcomer_univ 13          9         4              5.0 6.769231 3.661732 0.923077 0.384615 0.307692
+universalization 13          6         7              inf 7.615385 4.780384 0.615385 0.538462 0.538462
+
+                       comparison      chi2            p       p_holm
+                           global 35.676221 1.790635e-08 1.790635e-08
+        baseline vs newcomer_univ 27.081213 1.950847e-07 5.852541e-07
+     baseline vs universalization 22.014137 2.706496e-06 5.412992e-06
+newcomer_univ vs universalization  0.236180 6.269786e-01 6.269786e-01
+
+Note: months are discrete, so many ties; log-rank handles ties but report it.

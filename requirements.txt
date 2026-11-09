@@ -1,0 +1,6 @@
+# Analysis only (Python 3.11). Running the simulations needs GovSim: see README.
+numpy==1.24.4
+pandas==2.3.3
+scipy==1.15.3
+lifelines==0.30.3
+matplotlib==3.10.9

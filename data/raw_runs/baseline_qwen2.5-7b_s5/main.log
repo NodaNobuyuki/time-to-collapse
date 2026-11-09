@@ -1,0 +1,118 @@
+[2026-11-07 06:12:04,188][httpx2][INFO] - HTTP Request: GET https://huggingface.co/api/models/mixedbread-ai/mxbai-embed-large-v1 "HTTP/1.1 200 OK"
+[2026-11-07 06:12:04,194][sentence_transformers.base.model][INFO] - Loading SentenceTransformer model from mixedbread-ai/mxbai-embed-large-v1.
+[2026-11-07 06:12:04,703][httpx2][INFO] - HTTP Request: GET https://huggingface.co/api/models/mixedbread-ai/mxbai-embed-large-v1/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-11-07 06:12:04,846][httpx2][INFO] - HTTP Request: GET https://huggingface.co/api/models/mixedbread-ai/mxbai-embed-large-v1/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-11-07 06:12:04,864][sentence_transformers.base.model][WARNING] - This model was loaded in torch.float16 on CPU. Depending on your CPU, inference may be significantly slower than with torch.float32. Consider comparing inference speeds by loading with `model_kwargs={"dtype": torch.float32}`.
+[2026-11-07 06:12:04,864][sentence_transformers.base.model][INFO] - Loaded 1 prompt with these keys: ['query']
+[2026-11-07 06:12:19,457][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:12:19,461][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:12:32,039][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:12:32,040][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:12:39,987][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:12:39,988][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:12:49,166][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:12:49,166][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:00,080][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:00,081][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:02,935][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:02,936][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:06,505][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:06,506][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:11,159][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:11,159][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:16,786][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:16,786][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:23,169][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:23,169][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:29,820][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:29,820][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:36,837][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:36,837][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:42,908][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:42,909][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:48,674][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:48,675][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:51,109][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:51,110][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:56,774][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:56,775][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:13:59,764][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:13:59,764][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:02,262][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:02,262][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:04,461][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:04,462][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:07,029][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:07,030][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:09,192][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:09,192][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:12,258][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:12,259][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:14,860][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:14,860][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:16,672][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:16,673][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:19,360][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:19,361][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:21,912][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:21,912][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:24,414][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:24,415][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:27,056][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:27,057][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:29,412][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:29,413][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:31,917][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:31,917][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:35,099][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:35,100][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:37,428][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:37,428][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:39,891][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:39,891][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:41,653][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:41,654][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:44,269][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:44,270][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:47,195][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:47,195][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:50,198][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:50,198][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:52,731][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:52,731][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:54,944][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:54,945][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:14:57,479][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:14:57,480][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:00,032][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:00,033][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:06,741][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:06,741][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:09,526][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:09,526][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:11,965][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:11,965][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:15,630][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:15,631][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:18,004][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:18,005][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:20,526][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:20,526][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:26,736][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:26,737][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:30,031][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:30,031][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:32,741][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:32,742][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:38,747][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:38,748][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:41,375][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:41,376][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:43,506][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:43,507][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:49,574][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:49,575][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:53,026][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:53,027][root][INFO] - OpenAI system_fingerprint: fp_ollama
+[2026-11-07 06:15:56,507][httpx2][INFO] - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-11-07 06:15:56,507][root][INFO] - OpenAI system_fingerprint: fp_ollama

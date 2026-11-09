@@ -1,0 +1,36 @@
+A. As computed for the paper (compliance counts every agent, including the newcomer)
+
+--- as published
+Slope <= 0: control 7/7; slope > 0: newcomer 4/4 (Fisher p = 0.0030)
+Mean slope: control -0.238, newcomer +0.684 t/agent/month (Mann-Whitney p = 0.0061)
+Final limit: control median 3.0 (range 1-7), newcomer median 8.0 (range 4-10) (exact Mann-Whitney p = 0.0242)
+Compliance: surviving 78.1% (n=11), collapsed 83.1% (n=11) (U = 43.0, two-sided p = 0.2628)
+
+B. Compliance on incumbent decisions only, as the formula in Section 3.3 is written
+
+--- incumbents only
+Slope <= 0: control 7/7; slope > 0: newcomer 4/4 (Fisher p = 0.0030)
+Mean slope: control -0.238, newcomer +0.684 t/agent/month (Mann-Whitney p = 0.0061)
+Final limit: control median 3.0 (range 1-7), newcomer median 8.0 (range 4-10) (exact Mann-Whitney p = 0.0242)
+Compliance: surviving 82.2% (n=11), collapsed 88.0% (n=11) (U = 38.5, two-sided p = 0.1553)
+
+C. Audit of agreed_limit (model answered N/A, but a number was parsed)
+Parsed limits: 161; false: 19 (values {1.0: 18, 20.0: 1}, by condition {'newcomer_univ': 10, 'universalization': 9})
+False limits followed by another month: 19; stated verbatim in that month's agent prompts: 19
+Runs that ever record a 1-ton limit: 13; first such limit is false in: 13
+Genuine 'Answer: 1' records: 23; preceded by a false limit in the same run: 23
+
+D. Sensitivity: false limits treated as 'no agreement'. This corrects the metric only; the false
+limits still influenced the agents during the runs, which only re-running can remove.
+
+--- false limits removed
+Slope <= 0: control 6/7; slope > 0: newcomer 4/4 (Fisher p = 0.0152)
+Mean slope: control -0.257, newcomer +0.586 t/agent/month (Mann-Whitney p = 0.0121)
+Final limit: control median 3.0 (range 1-7), newcomer median 8.0 (range 4-10) (exact Mann-Whitney p = 0.0242)
+Compliance: surviving 80.6% (n=11), collapsed 88.2% (n=11) (U = 36.5, two-sided p = 0.1214)
+
+--- false limits removed + incumbents only
+Slope <= 0: control 6/7; slope > 0: newcomer 4/4 (Fisher p = 0.0152)
+Mean slope: control -0.257, newcomer +0.586 t/agent/month (Mann-Whitney p = 0.0121)
+Final limit: control median 3.0 (range 1-7), newcomer median 8.0 (range 4-10) (exact Mann-Whitney p = 0.0242)
+Compliance: surviving 84.6% (n=11), collapsed 96.4% (n=11) (U = 21.0, two-sided p = 0.0086)
